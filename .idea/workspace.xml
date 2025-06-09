@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e83c52e-e6c7-4326-8e6b-f0f16ba23498" name="更改" comment="add: implement various new Python programs for mathematical calculations and input processing">
-      <change afterPath="$PROJECT_DIR$/编程/34最大最小排序.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/编程/35正整数分解质因数.py" afterDir="false" />
+    <list default="true" id="5e83c52e-e6c7-4326-8e6b-f0f16ba23498" name="更改" comment="add: implement new Python programs for maximum, minimum, and prime factorization calculations">
+      <change afterPath="$PROJECT_DIR$/编程/36最大公约和最小公倍数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/编程/37圆柱体表面积和体积.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/编程/39字符串.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/编程/40函数.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +77,7 @@
     "Python.2闰年的判定规则.executor": "Run",
     "Python.3.executor": "Run",
     "Python.3.逆序数.executor": "Run",
+    "Python.39字符串.executor": "Run",
     "Python.4.1+n.executor": "Run",
     "Python.4.executor": "Run",
     "Python.5.executor": "Run",
@@ -98,30 +101,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.25平均工资的人员">
-    <configuration name="20同构数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="exam_test" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/编程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/编程/20同构数.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.39字符串">
     <configuration name="21六边形" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="exam_test" />
       <option name="ENV_FILES" value="" />
@@ -214,13 +194,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="39字符串" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exam_test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/编程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/编程/39字符串.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.39字符串" />
         <item itemvalue="Python.25平均工资的人员" />
         <item itemvalue="Python.24算铁球的表⾯积和铁球的质量" />
         <item itemvalue="Python.23判断闰年" />
         <item itemvalue="Python.21六边形" />
-        <item itemvalue="Python.20同构数" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +248,7 @@
       <workItem from="1749280588489" duration="14904000" />
       <workItem from="1749347012146" duration="3755000" />
       <workItem from="1749365946509" duration="2830000" />
-      <workItem from="1749448532615" duration="8342000" />
+      <workItem from="1749448532615" duration="10723000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -311,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749473044415</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add: implement new Python programs for maximum, minimum, and prime factorization calculations">
+      <option name="closed" value="true" />
+      <created>1749473646125</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749473646125</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +337,8 @@
     <MESSAGE value="add: implement string sorting and palindrome number checker" />
     <MESSAGE value="add: implement various Python programs including hexagon display, leap year check, sphere calculations, and average salary analysis" />
     <MESSAGE value="add: implement various new Python programs for mathematical calculations and input processing" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: implement various new Python programs for mathematical calculations and input processing" />
+    <MESSAGE value="add: implement new Python programs for maximum, minimum, and prime factorization calculations" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: implement new Python programs for maximum, minimum, and prime factorization calculations" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/exam_test$4.coverage" NAME="4 覆盖结果" MODIFIED="1749196627240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam" />
@@ -372,5 +384,6 @@
     <SUITE FILE_PATH="coverage/exam_test_2$16.coverage" NAME="16回文数 覆盖结果" MODIFIED="1749459588348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/编程" />
     <SUITE FILE_PATH="coverage/exam_test_2$3_.coverage" NAME="3.逆序数 覆盖结果" MODIFIED="1749457721329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/编程" />
     <SUITE FILE_PATH="coverage/exam_test_2$4.coverage" NAME="4 覆盖结果" MODIFIED="1749351973994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/exam_test_2$39.coverage" NAME="39字符串 覆盖结果" MODIFIED="1749474906179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/编程" />
   </component>
 </project>
