@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e83c52e-e6c7-4326-8e6b-f0f16ba23498" name="更改" comment="add: implement various Python programs including hexagon display, leap year check, sphere calculations, and average salary analysis">
-      <change afterPath="$PROJECT_DIR$/编程/28有规律的和.py" afterDir="false" />
+    <list default="true" id="5e83c52e-e6c7-4326-8e6b-f0f16ba23498" name="更改" comment="add: implement various new Python programs for mathematical calculations and input processing">
+      <change afterPath="$PROJECT_DIR$/编程/34最大最小排序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/编程/35正整数分解质因数.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -244,7 +245,7 @@
       <workItem from="1749280588489" duration="14904000" />
       <workItem from="1749347012146" duration="3755000" />
       <workItem from="1749365946509" duration="2830000" />
-      <workItem from="1749448532615" duration="6561000" />
+      <workItem from="1749448532615" duration="8342000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -302,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749461813482</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add: implement various new Python programs for mathematical calculations and input processing">
+      <option name="closed" value="true" />
+      <created>1749473044415</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1749473044415</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +325,8 @@
     <MESSAGE value="version4" />
     <MESSAGE value="add: implement string sorting and palindrome number checker" />
     <MESSAGE value="add: implement various Python programs including hexagon display, leap year check, sphere calculations, and average salary analysis" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: implement various Python programs including hexagon display, leap year check, sphere calculations, and average salary analysis" />
+    <MESSAGE value="add: implement various new Python programs for mathematical calculations and input processing" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: implement various new Python programs for mathematical calculations and input processing" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/exam_test$4.coverage" NAME="4 覆盖结果" MODIFIED="1749196627240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exam" />
