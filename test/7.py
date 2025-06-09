@@ -13,6 +13,17 @@
 【样例输出】总路程:xxx.xx,第十次高度:x.xx
 """
 
+w = 100
+n = w / 2
+
+for i in range(2,11):
+    w = n + w
+    n = n / 2
+print("总路程:{:.2f},第十次高度:{:.2f}".format(w,n))
+
+
+
+
 s = 100
 x = s/2
 

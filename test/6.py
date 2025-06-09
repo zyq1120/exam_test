@@ -7,9 +7,19 @@
 【输出形式】兔子数量
 """
 
+# n = int(input())
+# f1 = 1
+# f2 = 1
+# for i in range(3,n+1):
+#     f = f1 + f2
+#     f1,f2 = f2,f
+# print(f)
+
 n = int(input())
+f = 0
 f1 = 1
 f2 = 1
+
 for i in range(3,n+1):
     f = f1+f2
     f1,f2 = f2,f

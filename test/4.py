@@ -11,10 +11,15 @@
 【样例输出】133不是水仙花数
 """
 num = int(input())
-bw = num // 100
-sw = num % 100 //10
-gw = num % 10
-if bw**3 + sw ** 3 +gw ** 3 == num:
+a = num // 100
+b = num %100 // 10
+c = num % 10
+if a ** 3 + b ** 3 + c ** 3 == num:
     print("{}是水仙花数".format(num))
 else:
     print("{}不是水仙花数".format(num))
+
+
+
+
+

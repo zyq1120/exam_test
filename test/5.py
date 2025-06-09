@@ -19,3 +19,11 @@ def count(str,c):
 n = input()
 m = input()
 print(count(n,m))
+
+
+def count2(str,c):
+    count2 = 0
+    for i in range(len(str)):
+        if str[i] == c:
+            count2 +=1
+    return count2

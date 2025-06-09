@@ -9,6 +9,8 @@
 【样例输出】66.48 400.58
 """
 import math
+r = eval(input())
+print("%.2f %.2f"%(4*math.pi*r**2,4/3*math.pi*r**3*7.86))
 
 r = eval(input())
 print("%.2f %.2f"%(4*math.pi*r**2,4/3*math.pi*r**3*7.86))

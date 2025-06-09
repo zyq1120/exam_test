@@ -7,3 +7,10 @@
 【样例输入】10,30
 【样例输出】11 13 17 19 23 29
 """
+m,n = eval(input())
+str1 = ""
+for i in range(m , n):
+    for j in range(m,n**0.5+1):
+        if i % j == 0:
+            str1 += i
+print(str1)

@@ -6,10 +6,18 @@
 【样例输入】a这个数由键盘输入
 【样例输出】直接打印结果，如print(result)
 """
-n = 0
-m = 0
 a = int(input(''))
+sum1 = 0
+c = 0
 for i in range(6):
-    n = n*10 + a
-    m = m +n
-print(m)
+    sum1 = sum1 * 10 + a
+    c += sum1
+print(c)
+
+# n = 0
+# m = 0
+# a = int(input(''))
+# for i in range(6):
+#     n = n*10 + a
+#     m = m +n
+# print(m)

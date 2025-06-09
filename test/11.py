@@ -8,3 +8,5 @@
 """
 n = input()
 print(''.join(n[::-1]))
+
+print(''.join(input()[::-1]))
