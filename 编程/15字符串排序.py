@@ -22,4 +22,9 @@ abcdefg
 4
 分。
 """
+from os import set_inheritable
+
 print(''.join(sorted(set(input()))))
+
+
+print(' '.join(sorted(set(input()))))

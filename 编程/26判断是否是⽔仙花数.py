@@ -7,3 +7,6 @@ if a ** 3 + b ** 3 + c ** 3 == n:
     print('yes')
 else:
     print('no')
+
+
+

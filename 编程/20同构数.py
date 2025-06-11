@@ -69,8 +69,32 @@ b
 4
 分
 """
+from sys import int_info
+
 a,b=map(int,input().split())
 for i in range(a,b+1):
+    if str(i*i).endswith(str(i)):
+        print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+n,m = int(input())
+for j in  range(n,m+1):
+    if str(j*j).endswith(str(j)):
+        print(j)
+
+
+m,n = int(input())
+for i in range(m,n+1):
     if str(i*i).endswith(str(i)):
         print(i)
 

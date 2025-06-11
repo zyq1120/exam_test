@@ -92,3 +92,114 @@ a,b = map(int,input().split())
 for i in range(a,b+1):
     if str(i) == str(i)[::-1]:
         print(i)
+
+
+
+def loop(a,b):
+    for i in  range(a,b+1):
+        if str(i) == str(i)[::-1]:
+            print(i)
+
+
+a,b = map(int,input().split())
+loop(a,b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def loop2(n,m):
+    for i in range(n,m+1):
+        if str(i) == str(i)[::-1]:
+            print(i)
+n,m = map(int,input().split())
+loop2(n,m)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
